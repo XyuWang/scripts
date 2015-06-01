@@ -24,7 +24,7 @@ def set_auto_proxy_off
   end
 end
 
-def set_atuo_proxy_on
+def set_auto_proxy_on
   unless auto_proxy_enabled?
     puts '开启自动代理...'
     `networksetup -setautoproxyurl Wi-Fi http://127.0.0.1:54956/proxy.pac`
