@@ -1,4 +1,4 @@
-#ruby
+#!/usr/bin/ruby
 
 def get_ip
   puts '获取 IP...'
@@ -58,7 +58,7 @@ def set_socks_proxy_off
 end
 
 def proxy_off!
-  set_auto_proxy_on
+  set_auto_proxy_off
   set_socks_proxy_off
 end
 
